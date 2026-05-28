@@ -1,0 +1,22 @@
+{
+  "name": "LiveSupport",
+  "short_name": "LiveSupport",
+  "description": "AI-powered customer support dashboard",
+  "start_url": "/dashboard/conversations",
+  "display": "standalone",
+  "background_color": "#0d0d0f",
+  "theme_color": "#f59e0b",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Inbox",
+      "short_name": "Inbox",
+      "url": "/dashboard/conversations",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
